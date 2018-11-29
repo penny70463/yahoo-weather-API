@@ -1,0 +1,108 @@
+*{font-family:Microsoft JhengHei;
+  text-align:center;
+  
+}
+#weatherapi{
+  display:flex;
+  justify-content:center;
+
+}
+#container{
+  background-color:rgba(174,183,238,0.3);
+  width:880px;
+  height:380px;
+  border-radius:25px;
+  
+}
+#today{
+ width:870px;
+  height:240px;
+  background-color:rgba(174,183,238,0.1);
+  margin:5px;
+  border-radius:25px;
+  position:relative;
+  font-size:30px;
+}
+#todayicon{
+  position:absolute;
+  top:5%;
+  color:rgba(135,142,184,1);
+  width:250px;
+  display:flex;
+  justify-content:center;
+  }
+#code{
+ width:250px;
+  margin-left:80px;
+}
+#weather{
+ position:absolute;
+  font-size:28px;
+  bottom:20px;
+}
+#todaydata{
+  position:absolute;
+  left:330px;
+  top:45px;
+  color:rgba(135,142,184,1);
+}
+#area{
+ position:absolute;
+  right:50px;
+  top:40%;
+  color:rgba(135,142,184,1);
+}
+#days{position:relative;
+ 
+}
+#week{display:flex;
+  justify-content:center;
+  position:absolute;
+  left:-37px;
+  top:-15px;
+}
+
+#day{
+  width:120px;
+  height:120px;
+  background-color:rgba(174,183,238,0.3);
+  margin:2.5px;
+  border-radius:25px;
+  
+}
+ul{list-style-type: none;
+  
+}
+li{
+  display:flex;
+justify-content:center;
+  align-items:center;
+  color:#6e7395;
+  line-height:150%;
+}
+.today{
+  width:120px;
+  height:120px;
+  background-color:rgba(174,183,238,0.1);
+  margin:2.5px;
+  border-radius:25px; 
+}
+input{
+  -webkit-border-radius: 5px;
+border-radius: 5px;
+  padding:5px 15px;
+}
+#input{
+  margin:20px;
+}
+#submit{
+  background-color:#95899a;
+  font-family:Verdana;
+  color:white;
+  letter-spacing:2px;
+}
+#submit:hover{
+  background-color:#6e7395;}
+#submit:active{
+  transform:scale(1.1,1.1);
+}
